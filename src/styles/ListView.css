@@ -1,0 +1,90 @@
+.container {
+  max-width: 100rem;
+  height: 40%;
+}
+.grid {
+  gap: 2.2rem;
+}
+.card {
+  border: 0.1rem solid rgb(170 170 170 / 40%);
+  max-height: 18rem;
+  margin-bottom: 0.5rem;
+  padding: 0.6rem;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.04);
+  transition: 0.2s ease;
+  border-radius: 0.5rem;
+}
+.card:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+.card figure {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  max-height: 13rem;
+}
+.card figure:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.card img {
+  max-width: 90%;
+  margin-top: 1.5rem;
+  height: 20rem;
+  transition: all 0.2s linear;
+}
+.card img:hover {
+  transform: scale(1.2);
+}
+.product-data {
+  padding: 0 1rem;
+}
+.product-data h3 {
+  text-transform: uppercase;
+  margin: 0.2rem 0;
+  font-weight: 300;
+}
+.product-data button {
+  background-color: #e6e6e6;
+  color: black;
+  text-transform: capitalize;
+  margin-right: 5rem;
+}
+.product-data button:hover,
+.product-data button:active {
+  background-color: blueviolet;
+  color: white;
+}
+.cart-container {
+  /* box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important; */
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 0;
+}
+.cart-icon {
+  border-bottom-color: blue;
+  color: blueviolet;
+  font-size: x-large;
+  transition: all 0.2s linear;
+  /* padding: 2vw important; */
+  position: absolute;
+  right: 3rem;
+  top: 0.3rem;
+}
+.cart-icon:hover,
+.cart-icon:active {
+  color: rgb(20, 148, 148);
+}
+.next-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

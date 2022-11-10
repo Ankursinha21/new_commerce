@@ -1,0 +1,18 @@
+#hero_shop.contact-banner {
+    width: 100%;height: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#hero_shop.contact-header h2{
+    color: rgb(189, 182, 182);
+}
+#hero_shop.contact-header p{
+    color: rgb(189, 182, 182);
+}

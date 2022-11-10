@@ -1,0 +1,83 @@
+ .pros{
+    margin: 1rem 2rem;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.04);
+    border: 1px solid #cce7d0;
+    transition: 0.2s ease;
+    border-radius: 18px;
+    padding: 10px 20px;
+    width: fit-content;
+    min-height: 18rem;
+ }
+ .pros:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+ 
+ .pros img {
+    width: 100%;
+    min-height: 12rem;
+    border-radius: 15px;
+}
+
+ .pros .description {
+    text-align: start;
+    padding: 10px 0;
+}
+
+.pros .description h5 {
+    font: 14px;
+    color: #1a1a1a;
+    padding-top: 7px;
+    text-transform: capitalize;
+}
+
+.pros .description h4 {
+    font-size: 15px;
+    color: rgb(20, 148, 148);
+    font-weight: 700;
+    padding-top: 7px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.pros figcaption{
+    color: rgb(2, 13, 24);
+    text-transform: uppercase;
+    background-color: rgb(247, 244, 244);
+}
+/* .pros .caption{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    text-transform: uppercase;
+    background-color: grey;
+    color: violet;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+} */
+
+ .pros .description .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: rgb(20, 148, 148);
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+
+ .pros .description .cart:hover {
+    background-color: rgb(173, 166, 166)
+}
+.section-p1 {
+    padding: 30px 120px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}

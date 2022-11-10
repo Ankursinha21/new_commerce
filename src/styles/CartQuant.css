@@ -1,0 +1,35 @@
+.cart-quantity .toggle button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+  font-size: large;
+  position: relative;
+  margin: 0;
+  border-radius: 10rem;
+  margin: 0 1erm;
+  
+  /* width: 1rem;
+  height: 1rem; */
+}
+.cart-quantity .toggle button:hover{
+  color: blueviolet;
+  background-color: transparent;
+}
+.cart-quantity .toggle {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  font-size: 1.6rem;
+  width: 15rem;
+  position: relative;
+  padding: 0;
+  /* background-color: aqua; */
+}
+
+.quant-style p{
+  text-align: center;
+  font-size: 1.4rem;
+  
+}

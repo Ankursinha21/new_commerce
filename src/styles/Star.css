@@ -1,0 +1,16 @@
+.star-style{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.star-style p{
+    margin: 0;
+    padding-left: 1.2rem;
+}
+.star-icon{
+    font-size: 1.3rem;
+    color: orange;
+
+}

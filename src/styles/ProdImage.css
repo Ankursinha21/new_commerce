@@ -1,0 +1,13 @@
+.single-pro-image {
+    width: 100%;
+    margin-right: 50px;
+}
+.small-img-grp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}

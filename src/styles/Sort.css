@@ -1,0 +1,51 @@
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.sorting-list{
+    display: flex;
+    gap: 2rem;
+}
+.sorting-list button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    padding: 0.8rem 0.8rem;
+}
+.sorting-list button:hover{
+  background-color: aliceblue;
+    color: blueviolet;
+}
+
+.sorting-list .active {
+  background-color: aliceblue;
+  color: blueviolet;
+    
+  }
+  .sorting-list .icon{
+        font-size: 1.6rem;
+  }
+  .select-sort{
+    padding: 0.5rem;
+  }
+  .select-sort option{
+    padding: 0.5rem 0;
+    cursor: pointer;
+    height: 2rem;
+    padding: 10px;
+  }
+  .select-sort label{
+    margin-right: 1rem;
+  }
+  .select-sort .select-sort-style{
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  .product-data-sort p{
+    font-size: medium;
+  }

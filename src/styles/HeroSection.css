@@ -1,0 +1,47 @@
+
+
+#hero {
+    /* background-image: url("src/styles/Premium Photo _ 3d shopping online concept with shopping cart,bag and balloon_ 3d rendering_.jpg"); */
+    /* background: url("https://imgs.search.brave.com/cBSwiqO--XXjHyd8b7ablBhZVaHjM3ZD-Jl0abKEBr8/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5n/QlZ1WFFJMlZaWURB/UUt3Z01NMUpnSGFF/NyZwaWQ9QXBp"); */
+    background-size: contain;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#her img{
+    width: 100%;
+}
+
+/* #hero button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+} */
+/* 
+#hero button:hover {
+    background-color: rgb(20, 148, 148);
+} */
+
+#hero h3 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: rgb(20, 148, 148);
+    
+
+}

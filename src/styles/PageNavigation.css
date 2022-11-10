@@ -1,0 +1,12 @@
+.navi{
+    height: 2rem;
+        display: flex;
+        justify-content: flexStart;
+        align-items: center;
+        font-size: 1.4rem;
+        padding-left: 1.2rem;
+        margin-bottom: 0;
+}
+.navi a{
+    font-size: 1.4rem;
+}
